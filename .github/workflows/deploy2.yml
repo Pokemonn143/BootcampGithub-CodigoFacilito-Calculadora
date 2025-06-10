@@ -1,7 +1,7 @@
 name: "Deploy Codigo Facilito"
 
 on: push
- branches: ["Main"]
+ branches: ["operaciones-extra"]
 
  jobs:
 
