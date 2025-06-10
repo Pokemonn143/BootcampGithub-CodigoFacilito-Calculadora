@@ -8,6 +8,7 @@ on: push
  deploy-codigofacilito:
   runs-on: ubuntu-latest
   steps:
+    use: actions/checkout@v4
     run: echo "Hacemos pull del codigo"
     run: echo "Correr migraciones"
     run: echo "generar binarios"
