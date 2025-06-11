@@ -1,14 +1,14 @@
 name: "Deploy Codigo Facilito"
 
-on: 
+on:
   push:
     branches:
-     ["operaciones-extra"]
+      - "operaciones-extra"
 
- jobs:
+jobs:
   deploy-codigofacilito:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hacemos pull del codigo"
       - run: echo "Correr migraciones"
-      - run: echo "generar binarios"
+      - run: echo "Generar binarios"
